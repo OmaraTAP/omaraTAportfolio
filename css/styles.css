@@ -150,6 +150,6 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
       .page-projects {
         display: grid;
         grid-gap: 1rem;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         padding: 0 5%;
       }
