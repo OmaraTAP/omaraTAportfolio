@@ -141,15 +141,15 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
     Add your styles below.
     ========================== */
 
-    img {
-        width: auto;
-        height: auto;
-        max-width: 100%;
-      }
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
       
-      .page-projects {
-        display: grid;
-        grid-gap: 1rem;
-        grid-template-columns: 1fr 1fr;
-        padding: 0 5%;
-      }
+.page-projects {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 5%;
+}
