@@ -153,23 +153,3 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
         grid-template-columns: 1fr;
         padding: 0 5%;
       }
-
-      /* ====================================
-Medium screen breakpoint */
-@media screen and (min-width: 600px) {
-    .page-projects {
-      grid-template-columns: 1fr 1fr;
-      padding: 0 10%;
-    }
-  }
-  /* ============ end min-width 600px =============== */
-
-  /* ====================================
-large screen breakpoint */
-@media screen and (min-width: 1200px) {
-    .page-projects {
-      grid-template-columns: repeat(4, 1fr);
-      padding: 0 25%;
-    }
-  }
-  /* ============ end min-width 1200px =============== */
