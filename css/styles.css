@@ -164,7 +164,7 @@ a{
   }
 
 header.site-header{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Trebuchet', sans-serif;
   font-weight: 400;
 }
 
@@ -244,7 +244,7 @@ header.site-header .menu li a {
 @media (max-width: 1284px){
   header.site-header .menu {
     display: none;
-    background-color: white;
+    background-color: #62c6c4;
   }
 
   header.site-header .menu li {
