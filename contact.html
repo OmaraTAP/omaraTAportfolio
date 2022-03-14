@@ -34,57 +34,9 @@
 
       <section class="contact-box">
           <div class="contact-left">
-              <h4>Send Your Request</h4>
-              <form onsubmit="sendEmail(); reset(); return false;">
+              <h4>Ways to Reach Me</h4>
 
-                <div class="input-row">
-                    <div class="input-group">
-                        <label>Name</label>
-                        <input type="text" placeholder="Your full name...">
-                    </div>
-                    <div class="input-group">
-                        <label>Phone</label>
-                        <input type="text" placeholder="+1 412 520 3239">
-                    </div>
-                </div>
-
-                <div class="input-row">
-                    <div class="input-group">
-                        <label>Email</label>
-                        <input type="email" placeholder="Your email address...">
-                    </div>
-                    <div class="input-group">
-                        <label>Subject</label>
-                        <input type="text" placeholder="Reason for contacting">
-                    </div>
-                </div>
-
-                <label>Message</label>
-                <textarea rows="10" placeholder="Type your message..."></textarea>
-
-                <button type="submit">SEND</button>
-              </form>
-          </div>
-          <script src="https://smtpjs.com/v3/smtp.js"></script>
-          <script>
-              function sendEmail(){
-                Email.send({
-                    Host : "smtp.gmail.com",
-                    Username : "omara0208@gmail.com",
-                    Password : "aguilar0208",
-                    To : 'omara0208@gmail.com',
-                    From : document.getElementById("email").value,
-                    Subject : "New Contact Form Enquiry",
-                    Body : "And this is the body"
-                }).then(
-                message => alert(message)
-                );
-              }
-          </script>
-
-          <div class="contact-right">
-              <h4>Other Ways to Reach Me</h4>
-
+          <div class="contact-info">
               <table>
                   <tr>
                       <td>Email</td>
