@@ -35,7 +35,7 @@
       <section class="contact-box">
           <div class="contact-left">
               <h4>Send Your Request</h4>
-              <form onsubmit="sendEmail()">
+              <form onsubmit="sendEmail(); reset(); return false;">
 
                 <div class="input-row">
                     <div class="input-group">
@@ -69,12 +69,12 @@
           <script>
               function sendEmail(){
                 Email.send({
-                    Host : "smtp.yourisp.com",
-                    Username : "username",
-                    Password : "password",
-                    To : 'them@website.com',
-                    From : "you@isp.com",
-                    Subject : "This is the subject",
+                    Host : "smtp.gmail.com",
+                    Username : "omara0208@gmail.com",
+                    Password : "aguilar0208",
+                    To : 'omara0208@gmail.com',
+                    From : document.getElementById("email").value,
+                    Subject : "New Contact Form Enquiry",
                     Body : "And this is the body"
                 }).then(
                 message => alert(message)
