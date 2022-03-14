@@ -255,38 +255,38 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
 ==================== */
 
 h1{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-family: Verdana, sans-serif;
-    font-weight: bold;
-    color: black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  color: black;
 }
 
 .page-projects{
-  display: grid;
-  grid-gap: 5rem;
-  grid-template-columns: 1fr 1fr;
+display: grid;
+grid-gap: 5rem;
+grid-template-columns: 1fr 1fr;
 }
-  
-  img{
-    max-width: 100%;
-    height: auto;
-  }
+
+img{
+  max-width: 70px;
+  height: 70px;
+}
 
 .page-projects a{
-    color: black;
-    text-decoration: none;
-    padding: 8px 25px;
-    transition: all .5s ease;
+  color: black;
+  text-decoration: none;
+  padding: 8px 25px;
+  transition: all .5s ease;
 }
 
 .page-projects a:hover{
-    background-color: #62c6c4;
-    color:black;
-    box-shadow: 0 0 10px #62c6c4;
+  background-color: #62c6c4;
+  color:black;
+  box-shadow: 0 0 10px #62c6c4;
 }
 
 .intro-text{
-  color:#7a7a7a;
-  font-family: 'Courier New', Courier, monospace;
+color:#7a7a7a;
+font-family: 'Courier New', Courier, monospace;
 }
