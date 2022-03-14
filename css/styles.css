@@ -190,10 +190,12 @@ header.site-header .bottom-header:after, header.site-header .top-header:after {
 header.site-header nav {
     float: right;
     padding-top: 15px;
+    background-color: #62c6c4;
 }
 @media (max-width: 1285px){
   header.site-header nav {
     padding-top: 10px;
+    background-color: #62c6c4;
 }
 }
 
@@ -217,6 +219,12 @@ nav > ul {
 nav a{
   text-decoration: none;
 }
+
+.navbar ul li a:hover{
+    background-color: #FFFFFF;
+    color:black;
+    box-shadow: 0 0 3px white;
+  }
 
 header.site-header .menu {
     text-transform: uppercase;
