@@ -262,6 +262,10 @@ h1{
   color: black;
 }
 
+h2{
+  font-family: Verdana, sans-serif;
+}
+
 .page-projects{
 display: grid;
 grid-gap: 5rem;
