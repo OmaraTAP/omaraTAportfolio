@@ -160,9 +160,10 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
     box-shadow: 50px 20px 50px rgba (0,0,0,0), 0 20px 20px rgba(0,0,0,0);
   }
 
-.logo{
-  height: 100px;
-}
+  .logo{
+    height: 100px;
+    margin-right: 45rem;
+  }
 
 .nav-list{
    list-style-type: none;
