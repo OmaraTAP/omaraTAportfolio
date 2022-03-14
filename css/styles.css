@@ -207,6 +207,10 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
   .navbar{
     flex-direction: column;
     position: relative;
+    background-color: #62c6c4;
+    color: black;
+    justify-content: space-around;
+    font-size: 20px;
   }
   .navbar .container-icon{
     width: 100%;
@@ -232,7 +236,7 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
   }
   .logo{
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
   
   .active{
