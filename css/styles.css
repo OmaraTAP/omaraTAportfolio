@@ -144,149 +144,100 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
 /* =========
     Navbar Start
 =================== */
-*, *:before, *:after {
+* {
     box-sizing: border-box;
-}
-.logo {
-  width:5%;
-  height: 5%;
-  max-width: 5%;
-}
-
-a{
-  color: #555;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar{
     background-color: #62c6c4;
-  }
-
-header.site-header{
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 398;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    align-items: center;
 }
 
-header.site-header .logo img{
-  width:320px;
+.logo{
+  height: 40px; 
 }
 
-header.site-header .bottom-header {
-    border-bottom: 1px solid #e9e9e9;
-    padding-bottom: 7px;
-/*     margin-right: 42px; */
-}
-header.site-header .bottom-header:after, header.site-header .top-header:after {
-    content: '';
-    display: table;
-    clear: both;
+.nav-list{
+   list-style-type: none;
 }
 
-@media (max-width: 1285px){
-  header.site-header .bottom-header {
-    margin-right: 0;
-  }
+.nav-list .list-item{
+  display: inline-block;
+  padding: 20px 10px;
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: bold;
 }
 
-header.site-header nav {
-    float: right;
-    padding-top: 15px;
-    background-color: #62c6c4;
-}
-@media (max-width: 1285px){
-  header.site-header nav {
-    padding-top: 10px;
-    background-color: #62c6c4;
-}
-}
-
-.hamburger {
-    display: none;
-    background: linear-gradient(to bottom, #666666 0%, #666666 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 40%, #666666 40%, #666666 60%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 80%, #666666 80%, #666666 100%);
-    width: 21px;
-    height: 21px;
-}
-@media (max-width: 1285px){
-  .hamburger {
-    display: block;
-  }
-}
-
-
-nav > ul {
-    margin: 0;
-    padding: 0;
-}
-nav a{
+.navbar a{
+  color: black;
   text-decoration: none;
 }
 
+.navbar ul li a{
+   text-decoration: none;
+   color: black;
+   padding: 8px 25px;
+   transition: all .5s ease;
+    }
+
 .navbar ul li a:hover{
-    background-color: #FFFFFF;
-    color:black;
-    box-shadow: 0 0 3px white;
-  }
-
-header.site-header .menu {
-    text-transform: uppercase;
-    list-style: none;
-    padding-left: 0;
-    font-size: 14px;
+   background-color: #FFFFFF;
+   color:black;
+   box-shadow: 0 0 10px white;
 }
 
-header.site-header .menu li {
-    float: left;
-    margin-right: 35px;
+.menu{
+  display: none;
+}
+
+.menu-line{
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 600px) {
+  .navbar{
+    flex-direction: column;
     position: relative;
-}
-header.site-header .menu li:last-of-type {
-  margin-right: 10px;
-}
-
-header.site-header .menu li a {
-    text-decoration: none;
-    color: #666666;
-}
-
-@media (max-width: 1284px){
-  header.site-header .menu {
-    display: none;
-    background-color: #62c6c4;
   }
-
-  header.site-header .menu li {
-      margin-right: 0;
-      display: block;
-      float: none;
-      padding-bottom: 14px;
-      text-align: center;
+  .navbar .container-icon{
+    width: 100%;
+  }
+  .nav-list{
+   list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+  }
+  .nav-list .list-item{
+  display: block;
+  border-top: 1px solid white;
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: bold;
+  }
+  .menu{
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+  .logo{
+    margin-left: 10px;
+    margin-top: 10px;
   }
   
-  header.site-header .menu li a {
-    display: block;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    display: inline-block;
-    position: relative;
+  .active{
+    display:block;
   }
-
-}
-
-@media (max-width: 1023px){
-  header.site-header .menu li {
-    margin-right: 22px;
-  }
-}
-
-header.site-header .menu.mobile-menu {
-    display: none;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 5;
-    padding-left: 20px;
-    padding-top: 12px;
-    border-bottom: 1px solid #e9e9e9;
 }
 
 /* =========
