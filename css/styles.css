@@ -278,11 +278,15 @@ h1{
     text-decoration: none;
     padding: 8px 25px;
     transition: all .5s ease;
-     }
 }
 
 .page-projects a:hover{
     background-color: #62c6c4;
     color:black;
     box-shadow: 0 0 10px #62c6c4;
+}
+
+.intro-text{
+  color:#7a7a7a;
+  font-family: 'Courier New', Courier, monospace;
 }
