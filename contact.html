@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li>Projects</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </header>
+
+      <h3>Connect With Me</h3>
+
+      <section class="contact-box">
+          <div class="contact-left">
+              <h4>Send Your Request</h4>
+              <form onsubmit="sendEmail()">
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your full name...">
+                    </div>
+                    <div class="input-group">
+                        <label>Phone</label>
+                        <input type="text" placeholder="+1 412 520 3239">
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="Your email address...">
+                    </div>
+                    <div class="input-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Reason for contacting">
+                    </div>
+                </div>
+
+                <label>Message</label>
+                <textarea rows="10" placeholder="Type your message..."></textarea>
+
+                <button type="submit">SEND</button>
+              </form>
+          </div>
+          <script src="https://smtpjs.com/v3/smtp.js"></script>
+          <script>
+              function sendEmail(){
+                Email.send({
+                    Host : "smtp.yourisp.com",
+                    Username : "username",
+                    Password : "password",
+                    To : 'them@website.com',
+                    From : "you@isp.com",
+                    Subject : "This is the subject",
+                    Body : "And this is the body"
+                }).then(
+                message => alert(message)
+                );
+              }
+          </script>
+
+          <div class="contact-right">
+              <h4>Other Ways to Reach Me</h4>
+
+              <table>
+                  <tr>
+                      <td>Email</td>
+                      <td>omara0208@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>Phone</td>
+                    <td>+1 929 453 4150</td>
+                </tr>
+              </table>
+          </div>
+      </section>
+      
+      <footer class="site-footer">
+        <!-- your site footer content here... -->
+        Omara T. Aguilar's Portfolio &copy;
+      </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
