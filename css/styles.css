@@ -160,9 +160,7 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
 }
 
 .logo{
-  height: 25%; 
-  width: 25%;
-  max-width: 25%;
+  height: 100px;
 }
 
 .nav-list{
@@ -255,3 +253,8 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
 /* =======
     Index
 ==================== */
+.page-projects{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
