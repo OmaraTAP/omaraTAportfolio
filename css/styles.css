@@ -264,7 +264,7 @@ h1{
 
 .page-projects{
   display: grid;
-  grid-gap: 10rem;
+  grid-gap: 5rem;
   grid-template-columns: 1fr 1fr;
 }
   
