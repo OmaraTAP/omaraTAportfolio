@@ -303,7 +303,7 @@ grid-template-rows: 1fr 1fr 1fr;
 .intro-text{
   color:#595959;
   font-family: 'Courier New', Courier, monospace;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
   margin-top: 3px
 }
 
@@ -316,4 +316,3 @@ grid-template-rows: 1fr 1fr 1fr;
     About
   ================== */
 
-  
