@@ -149,7 +149,7 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
 *, *:before, *:after {
     box-sizing: border-box;
 }
-img{
+.logo {
   width:auto;
   height: 10%;
   max-width: 10%;
