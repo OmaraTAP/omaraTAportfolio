@@ -395,29 +395,28 @@ h4{
     Projects
   ================== */
 
-  .p1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .p1 p{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .project1{
+    text-align: center;
     color:#595959;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     line-height: 2;
+    margin-left: 5rem;
     margin-right: 5rem;
   }
 
-  .p1 img{
+  .p1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3rem;
+    width: 50%;
+  }
+
+  .p1 img{
     border: 5px solid #62c6c4;
     color:black;
     box-shadow: 0 0 6px black;
     width: 50%;
   }
+  
