@@ -154,13 +154,16 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
   height: 10%;
   max-width: 10%;
 }
+
 a{
   color: #555;
 }
+
 header.site-header{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
+
 header.site-header .logo img{
   width:320px;
 }
