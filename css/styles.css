@@ -268,9 +268,9 @@ grid-gap: 5rem;
 grid-template-columns: 1fr 1fr;
 }
 
-img{
-  max-width: 70px;
-  height: 70px;
+.page-projects img{
+  width: 100px;
+  height: 100px;
 }
 
 .page-projects a{
