@@ -256,7 +256,7 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
 .page-projects{
     display: grid;
     padding: 2rem;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
     align-items: center;
     max-width: 800px;
