@@ -327,6 +327,8 @@ grid-template-rows: 1fr 1fr 1fr;
 
   .me{
     text-align: center;
+    color:#595959;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     line-height: 2;
     margin-left: 5rem;
@@ -345,4 +347,14 @@ grid-template-rows: 1fr 1fr 1fr;
   border: 5px solid #62c6c4;
   color:black;
   box-shadow: 0 0 6px black;
+  width: 50%;
 }
+
+
+
+
+
+
+/* ==========
+    Contact
+  ================== */
