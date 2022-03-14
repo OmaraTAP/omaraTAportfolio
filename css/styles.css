@@ -395,13 +395,13 @@ h4{
     Projects
   ================== */
 
-  .project1{
+  .p1{
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .project1 p{
+  .p1 p{
     color:#595959;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -409,7 +409,7 @@ h4{
     margin-right: 5rem;
   }
 
-  .project1 img{
+  .p1 img{
     border: 5px solid #62c6c4;
     color:black;
     box-shadow: 0 0 6px black;
