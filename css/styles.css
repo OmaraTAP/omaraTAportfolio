@@ -413,6 +413,11 @@ h4{
     width: 50%;
   }
 
+  .p1 p{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
   .p1 img{
     border: 5px solid #62c6c4;
     color:black;
