@@ -144,8 +144,6 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
 /* =========
     Navbar Start
 =================== */
-@import url('https://fonts.googleapis.com/css?family=Roboto:400&display=swap');
-
 *, *:before, *:after {
     box-sizing: border-box;
 }
@@ -164,8 +162,8 @@ a{
   }
 
 header.site-header{
-  font-family: 'Trebuchet', sans-serif;
-  font-weight: 400;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 398;
 }
 
 header.site-header .logo img{
