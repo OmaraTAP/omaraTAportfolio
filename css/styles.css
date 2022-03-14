@@ -269,15 +269,18 @@ h2{
 }
 
 .page-projects{
-display: grid;
-grid-gap: 5rem;
-grid-template-columns: 1fr 1fr;
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  align-items: center;
 }
-
-.project-image{
-  width: 500px;
-  height: 400px;
-}
+  
+ .project-image{
+    width: 100%;
+    height: 100%;
+  }
 
 .page-projects a{
   color: black;
