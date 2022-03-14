@@ -273,3 +273,7 @@ h1{
     height: auto;
   }
 
+.page-projects a{
+    color: black;
+    text-decoration: none;
+}
