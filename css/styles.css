@@ -253,13 +253,21 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
 /* =======
     Index
 ==================== */
+
+h1{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: bold;
+    color: black;
+}
 .page-projects{
     display: grid;
     padding: 2rem;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
     align-items: center;
-    max-width: 800px;
+    max-width: 50%;
     margin: 0 auto;
     font: 500 100%/1.5 system-ui;
   }
