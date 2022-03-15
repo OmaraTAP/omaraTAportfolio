@@ -543,6 +543,7 @@ h4{
     box-shadow: 0 0 6px black;
     width: 70%;
     margin-bottom: 3rem;
+    margin-top: 2rem;
   }
 
 
@@ -564,7 +565,7 @@ h4{
       margin-right: auto;
       margin-bottom: 3rem;
       margin-top: 3rem;
-      width: 50%;
+      width: 70%;
     }
   
     .p1 img{
